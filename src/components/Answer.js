@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Answer = (props) => {
-const { id, name, text } = props;
+const { name, text } = props;
 
   return (
       <li>
