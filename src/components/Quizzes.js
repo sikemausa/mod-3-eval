@@ -23,7 +23,6 @@ fetchQuizzes() {
   });
 }
 
-
 render() {
   return(
     this.state.quizzes ?
@@ -41,16 +40,3 @@ render() {
   )
 }
 }
-
-// return (
-//   <section id="question" key={question.id}>
-//     <h1 id="question-name">{question.title}</h1>
-//     {question.answers.map((answer, answerIndex) => {
-//       return (
-//         <li id="answer-title" key={answerIndex}>
-//           {answer.title}
-//         </li>
-//       )
-//     })}
-//   </section>
-// )

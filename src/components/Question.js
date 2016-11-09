@@ -13,6 +13,7 @@ const { title, id, answers } = props;
               key={index}
               name={id}
               text={answer.title}
+              score={answer.score}
           />
         )}
       </ul>

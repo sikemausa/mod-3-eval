@@ -1,11 +1,11 @@
 import React from 'react';
 
 const Answer = (props) => {
-const { id, name, text } = props;
+const { name, text, score } = props;
 
   return (
       <li>
-        <input type="radio" name={name} />
+        <input type="radio" name={name} value={score} />
           {text}
       </li>
   );
