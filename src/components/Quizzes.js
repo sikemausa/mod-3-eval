@@ -23,7 +23,6 @@ fetchQuizzes() {
   });
 }
 
-
 render() {
   return(
     this.state.quizzes ?
